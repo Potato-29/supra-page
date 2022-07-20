@@ -30,7 +30,7 @@ function Home() {
                 <source src={vid} type='video/mp4'/>
             </video>
             <div className='flex flex-row m-10'>
-                <h1 className='text-6xl text-white z-10 relative text-center '>The all new <span className='font-extrabold'>SUPRA</span></h1>
+                <h1 className='text-2xl lg:text-6xl  text-white z-10 relative text-center '>The all new <span className='  font-extrabold'>SUPRA</span></h1>
                 <img src={gazoo} className="w-10 z-10 h-6" alt="" />
             </div>
         </div>
@@ -60,14 +60,14 @@ function Home() {
                 <div initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{delay: 0.3}} className='flex flex-col justify-center m-5'>
                     <div className='flex flex-row items-center'>
                         <IoMdSpeedometer size={45} color="#ebdf0c" className='mr-2' />
-                        <h1 className='text-3xl'>4.3 seconds, 0-100km/h</h1>
+                        <h1 className='text-3xl font-bold'>4.3 seconds, 0-100km/h</h1>
                     </div>
                     <p className='mx-2'>The acceleration on this car is actually really good as it goes from 0 to 100 kilometres in just 4.3 seconds, It is a whole second faster than the older supra.</p>
                 </div>
                 <div initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{delay: 0.}} className='flex flex-col justify-center m-5'>
                     <div className='flex flex-row items-center'>
                         <RiMoneyDollarCircleLine size={45} color="#28b528" className='mr-2'/>
-                        <h1 className='text-3xl'>43,540</h1>
+                        <h1 className='text-3xl font-bold'>43,540</h1>
                     </div>
                     <p className='mx-2'>The 2022 GR Supra starts from $43,540 and has 4 variants, the top model beginning from $63,180</p>
                 </div>
